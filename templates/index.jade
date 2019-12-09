@@ -1,0 +1,23 @@
+doctype html
+html
+  head
+    title Osmosis
+
+    meta(charset="utf-8")
+    meta(http-equiv="Content-Type",content="text/html; charset=iso-8859-1")
+    meta(name="viewport",content="width=device-width, initial-scale=1.0, user-scalable=no")
+
+    +src(styles='/client/scripts')
+    +src(scripts='/includes/3rd.js.list')
+    +src(scripts='/client/scripts')
+
+    script
+      $( document ).ready(function() {
+        window.pageName = 'index';
+        window.page = require('page/index');
+        window.page.render();
+      });
+
+  body
+    #main
+

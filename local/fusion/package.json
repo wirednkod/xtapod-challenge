@@ -1,0 +1,51 @@
+{
+  "name": "fusion",
+  "version": "0.0.0",
+  "description": "Generic framework for node.js using express, knockout, jade, and less",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/OsmosisKD/fusion.git"
+  },
+  "keywords": [
+    "node.js",
+    "express",
+    "knockout",
+    "jade",
+    "less"
+  ],
+  "author": "Ryan Haynes",
+  "license": "None",
+  "bugs": {
+    "url": "https://github.com/OsmosisKD/fusion/issues"
+  },
+  "homepage": "https://github.com/OsmosisKD/fusion",
+  "dependencies": {
+    "aws-sdk": "^2.1.30",
+    "awssum": "^1.2.0",
+    "awssum-amazon": "^1.3.0",
+    "awssum-amazon-s3": "^1.4.0",
+    "cookie-signature": "^1.0.3",
+    "cron": "^1.0.3",
+    "css": "^2.1.0",
+    "csv": "^0.3.7",
+    "hash-files": "^1.0.0",
+    "http-get": "^0.5.10",
+    "json-schema": "^0.2.2",
+    "less": "^1.7.0",
+    "mysql": "git://github.com/felixge/node-mysql",
+    "node-static": "^0.7.3",
+    "nodemailer": "0.4.4",
+    "request": "^2.34.0",
+    "shell-escape": "^0.2.0",
+    "socket.io": "^0.9.16",
+    "sprintf": "^0.1.3",
+    "sqwish": "^0.2.2",
+    "string": "^1.9.1",
+    "uglify-es": "^3.0.25",
+    "underscore": "^1.6.0"
+  }
+}

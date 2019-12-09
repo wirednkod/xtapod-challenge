@@ -1,0 +1,4 @@
+cd local/fusion
+npm install
+cd ../..
+npm install
