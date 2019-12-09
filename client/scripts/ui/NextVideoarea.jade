@@ -4,9 +4,9 @@
     div(class="contents")
       img(src="/images/1.jpg", class="up-next-img")
       div(class="video-text")
-        div(class="video-title") Blood presure, blood flow and resistance
-        div(class="video-from") Osmosis
-        div(class="video-time") 9:43
+        div(class="video-title", data-bind="text: nextVideoTitle")
+        div(class="video-from", data-bind="text: nextVideoFrom")
+        div(class="video-time", data-bind="text: nextVideoTime")
   div(class="memory-anchors")
     div(class="title") Memory Anchors
     .videos

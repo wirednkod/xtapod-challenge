@@ -6,14 +6,14 @@ left: 80px;
 width: ~"calc(100vw - 80px)";
 height: 100%;
 float: left;
--moz-box-shadow: 0px 0px 15px #000;
--webkit-box-shadow: 0px 0px 15px #000;
-box-shadow: 0px 0px 15px #000;
+-moz-box-shadow: 0px 0px 15px @black_color;
+-webkit-box-shadow: 0px 0px 15px @black_color;
+box-shadow: 0px 0px 15px @black_color;
 
 .top-container {
-  background-color: #ffffff;
+  background-color: fff;
   height: 60px;
-  border-bottom: 1px solid #ccc;
+  border-bottom: 1px solid @border_grey;
 
   ::-webkit-input-placeholder {
     font-weight: 400;
@@ -34,7 +34,7 @@ box-shadow: 0px 0px 15px #000;
     -webkit-border-radius: 3px;
     -moz-border-radius: 3px;
     border-radius: 3px;
-    border: 1px solid #ccc;
+    border: 1px solid @border_grey;
     height: 30px;
     background-image: url('images/search.png');
     background-repeat: no-repeat;
@@ -71,7 +71,7 @@ box-shadow: 0px 0px 15px #000;
       }
       .files-badge{
         position: absolute;
-        background: #f20140;
+        background: @red_color;
         height: 14px;
         top: 14px;
         left: 35px;
@@ -80,16 +80,16 @@ box-shadow: 0px 0px 15px #000;
         line-height: 12px;
         font-size: 10px;
         border-radius: 40%;
-        color: white;
-        border: 1px solid #f20140;
+        color: @white_color;
+        border: 1px solid @red_color;
         z-index: 10;
         font-weight: bold;
       }
     }
     .time {
       width: 70px;
-      border-left: 1px solid #ccc;
-      border-right: 1px solid #ccc;
+      border-left: 1px solid @border_grey;
+      border-right: 1px solid @border_grey;
       text-align: center;
       line-height: 50px;
       margin-top: 5px;
@@ -100,7 +100,7 @@ box-shadow: 0px 0px 15px #000;
       }
       .time-badge{
         position: absolute;
-        background: #f20140;
+        background: @red_color;
         height: 14px;
         top: 13px;
         right: 110px;
@@ -109,8 +109,8 @@ box-shadow: 0px 0px 15px #000;
         line-height: 12px;
         font-size: 10px;
         border-radius: 40%;
-        color: white;
-        border: 1px solid #f20140;
+        color: @white_color;
+        border: 1px solid @red_color;
         z-index: 10;
         font-weight: bold;
       }
