@@ -1,4 +1,7 @@
 .ui-ListElement
-  h2.fwb(data-bind='text: title')
-  .mll(data-bind='text: body')
-
+  img(class="main-image", data-bind='attr: { src: image }')
+  div(class="info-container")
+    div.fwb(class="video-title", data-bind='text: title')
+    div(class="channel-container")
+      img(class="icon", data-bind='attr: { src: channel[0] }')
+      .mlm(class="icon-text", data-bind='text: channel[1]')

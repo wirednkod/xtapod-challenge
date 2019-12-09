@@ -1,8 +1,8 @@
 
 function ListElement(bind,args) {
+  this.image = args.image;
   this.title = args.title;
-  this.body = args.body;
+  this.channel = args.channel;
 }
 
 module.exports = ListElement;
-
