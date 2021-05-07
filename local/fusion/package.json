@@ -46,6 +46,6 @@
     "sqwish": "^0.2.2",
     "string": "^1.9.1",
     "uglify-es": "^3.0.25",
-    "underscore": "^1.6.0"
+    "underscore": "^1.12.1"
   }
 }
